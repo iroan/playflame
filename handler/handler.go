@@ -2,13 +2,14 @@ package handler
 
 import (
 	"fmt"
-	"github.com/domac/playflame/stats"
-	"github.com/varstr/uaparser"
 	"net/http"
 	"os"
 	"path/filepath"
+	"playflame/stats"
 	"strings"
 	"time"
+
+	"github.com/varstr/uaparser"
 )
 
 func Simple(w http.ResponseWriter, req *http.Request) {

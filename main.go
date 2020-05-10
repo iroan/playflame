@@ -8,7 +8,7 @@ import (
 	"net/http"
 	_ "net/http/pprof"
 
-	"github.com/domac/playflame/handler"
+	"playflame/handler"
 )
 
 //端口
